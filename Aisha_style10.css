@@ -1,0 +1,117 @@
+body {
+    background-image: radial-gradient(farthest-side at 50% 55%,
+            blue,
+            green,
+            yellow,
+            black);
+    font-family: Georgia, serif;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    width: 600px;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: lightgoldenrodyellow;
+    text-shadow: 2px 2px #7e57c2;
+}
+
+h2 {
+    color: darken;
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow: 2px 2px #76ff03;
+}
+
+h3 {
+    font-size: 25px;
+    color: #f8bbd0;
+    text-decoration: underline;
+    text-shadow: 2px 2px #b71c1c;
+}
+
+p {
+    font-size: 16px;
+    color: gold;
+    background-color: purple;
+    text-shadow: 2px 2px #0d47a1;
+}
+
+#DoraTheExplorerImage {
+    border-radius: 50%;
+}
+
+#DoraAndBootsGif {
+    border-radius: 40px;
+}
+
+#BiographyOnDoraTheExplorer {
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    cursor: grab;
+    color: deeppink;
+    z-index: 15;
+    position: absolute;
+}
+
+a:hover {
+    font-size: 25px !important;
+}
+
+.links {
+    padding: 5px 15px;
+    float: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#article1 {
+    color: chocolate !important;
+}
+
+#article2 {
+    color: darkgoldenrod !important;
+    font-size: 20px;
+}
+
+h4 {
+    color: crimson;
+    font-size: 22px;
+}
+
+label {
+    color: aqua;
+}
+
+#CreatorImage {
+    transition: transform .2s;
+    border: 10px Solid #AAAAAA;
+}
+
+#CreatorImage:hover {
+    transform: scale(0.9);
+}
+
+#Gmail-ID:hover {
+    color: cyan !important;
+    font-size: 22px !important;
+}
+
+li {
+    border-right: 3px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ul {
+    background-color: aquamarine;
+}

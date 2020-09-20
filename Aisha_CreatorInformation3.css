@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: burlywood;
+    text-decoration: underline;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h3 {
+    color: brown;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+p {
+    color: crimson;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.carousel-inner {
+    margin-top: 50px;
+}
+
+#MyCarousel {
+    background-color: chartreuse;
+}
+
+#MyCarousel img {
+    height: 500px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
